@@ -1,0 +1,81 @@
+/* יש בעיה של סטטוס קוד 304: משהו עם רענון דפים ישנים וכו צריך לראות איך לטפל בזה. כי בינתיים אין עיצוב חדש */
+
+/* Container styling */
+.edit-product-container {
+  max-width: 700px;
+  margin: 80 auto;
+  padding: 30px;
+  background-color: red;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.edit-product-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333333;
+}
+
+/* Form styling */
+.edit-product-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Label styling */
+.edit-product-container label {
+  font-weight: 600;
+  color: #555555;
+}
+
+/* Input and textarea styling */
+.edit-product-container input[type="text"],
+.edit-product-container input[type="number"],
+.edit-product-container textarea {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.edit-product-container input[type="text"]:focus,
+.edit-product-container input[type="number"]:focus,
+.edit-product-container textarea:focus {
+  border-color: #000000;
+  outline: none;
+}
+
+/* Submit button styling */
+.edit-product-container button[type="submit"] {
+  padding: 12px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-product-container button[type="submit"]:hover {
+  background-color: #333333;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .edit-product-container {
+    padding: 20px;
+  }
+}
+
+
+body{
+  background-color: red;
+}
