@@ -147,10 +147,10 @@ Nike Store Project Team
 ## Application Screenshots
 
 ### sport page
-![Home Page]<img src="public/assets/images/runApp/sport.png" width="50%">
+<img src="public/assets/images/runApp/sport.png" width="50%">
 
 ### Product Catalog
-![Product Catalog]<img src="public/assets/images/runApp/products.png" width="50%">
+<img src="public/assets/images/runApp/products.png" width="50%">
 
 ### about nike
-![Shopping Cart]<img src="public/assets/images/runApp/aboutNike.png" width="50%">
+<img src="public/assets/images/runApp/aboutNike.png" width="50%">
